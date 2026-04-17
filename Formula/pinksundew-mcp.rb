@@ -1,25 +1,25 @@
 class PinksundewMcp < Formula
   desc "Pink Sundew MCP server (Rust runtime)"
   homepage "https://pinksundew.com"
-  version "2.1.5"
+  version "2.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.5/pinksundew-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "064895572b1997863b9a95f228d5ca314459e4b583eb4d4354d10ebf05048a58"
+      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.6/pinksundew-mcp-aarch64-apple-darwin.tar.xz"
+      sha256 "8172269bf25a95cd22c0b6649b596cf19a4884845c5914cd308eb68ddd466217"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.5/pinksundew-mcp-x86_64-apple-darwin.tar.xz"
-      sha256 "6013debb4e2432cd0ea5b97b9ba33c87b72c4fe40a605e85c6b79deb829d9ef5"
+      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.6/pinksundew-mcp-x86_64-apple-darwin.tar.xz"
+      sha256 "7e08a69c52783cde557400ca8c6e99d2e528d369a36a5c7d1ef12434c70dcc23"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.5/pinksundew-mcp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d181bf41f4ab1a5ec90f28e21b5078fef5d096e6de2e16e7b96cc29840b1d159"
+      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.6/pinksundew-mcp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9e9a3f99d1817ee4700a02e9197e6f381dffb94636a6a7ff8e44c69ff6204167"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.5/pinksundew-mcp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f0d76657905111e6674bc628c63e47cbebddc87f7d6a853f72a37b4a4afdfd96"
+      url "https://github.com/qadolphe/AgentPlanner/releases/download/v2.1.6/pinksundew-mcp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1b51d7e10b258e5c0c7ce949296234b8c5c581fd0a58ae660cf4095e14680569"
     end
   end
   license "MIT"
