@@ -1,25 +1,25 @@
 class PinksundewMcp < Formula
   desc "Pink Sundew MCP server (Rust runtime)"
   homepage "https://pinksundew.com"
-  version "2.4.0"
+  version "2.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/pinksundew/pinksundew/releases/download/v2.4.0/pinksundew-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "451bf7791e604bb29b70029d476a38e091d01ee3518a65074bc4e9f83f2df294"
+      url "https://github.com/pinksundew/pinksundew/releases/download/v2.5.0/pinksundew-mcp-aarch64-apple-darwin.tar.xz"
+      sha256 "1871ebe0c0a9765196c98045667b9463cbc7731ce500cccb08077b64a8fe6a8e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/pinksundew/pinksundew/releases/download/v2.4.0/pinksundew-mcp-x86_64-apple-darwin.tar.xz"
-      sha256 "50f0fb8d051a49464e2282687e04f11de31acb4d9d99a4645776d255631015ed"
+      url "https://github.com/pinksundew/pinksundew/releases/download/v2.5.0/pinksundew-mcp-x86_64-apple-darwin.tar.xz"
+      sha256 "f452f0851e95bf85fa9ee5794a8134d4fdb6952915e01af435214070dcf39bed"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/pinksundew/pinksundew/releases/download/v2.4.0/pinksundew-mcp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "723aee19c43e81274d7d90c08aec6943464cbb7bdf1f38e6a65c944ed7637818"
+      url "https://github.com/pinksundew/pinksundew/releases/download/v2.5.0/pinksundew-mcp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a0594312dc64164ca686e7fd7879a6d6317b8d5e6e1b36a7a6d4e2376d13d1c0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/pinksundew/pinksundew/releases/download/v2.4.0/pinksundew-mcp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9465adf310476cb74baa9aa5a6d1c3f06bda34d53c042e7a441bfd02c0cf4ca9"
+      url "https://github.com/pinksundew/pinksundew/releases/download/v2.5.0/pinksundew-mcp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6a7190b0e70cd2c985117df74f630b084b11155676ff12ff5db36667b4071ac1"
     end
   end
   license "MIT"
